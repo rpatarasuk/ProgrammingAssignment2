@@ -1,15 +1,19 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This R code will perform a cache the inverse of a matrix
 
-## Write a short comment describing this function
+## This function will set up a matrix. The steps are:
+## 1. create a matrix
+## 2. cache matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-
+    y = matrix(x)
 }
-j
 
-## Write a short comment describing this function
+
+## This function will cache the above matrix
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+    ## Return a matrix that is the inverse of 'x'
+    solve(x) 
+}
+
 }
