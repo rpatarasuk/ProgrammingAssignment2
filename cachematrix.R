@@ -1,11 +1,13 @@
 ## This R code will perform a cache the inverse of a matrix
 
-## This function will set up a matrix. The steps are:
-## 1. create a matrix
-## 2. cache matrix
-
+## This function will set up a 3-by-3 matrix. 
 makeCacheMatrix <- function(x = matrix()) {
-    y = matrix(x)
+    ## Create Vectors
+    Vect1 <- c(1,2,3)
+    Vect2 <- c(4,5,6)
+    
+    ## Put vector into the matrix
+    x = as.matrix[Vect1, Vect2]
 }
 
 
@@ -16,4 +18,5 @@ cacheSolve <- function(x, ...) {
     solve(x) 
 }
 
-}
+makeCacheMatrix(x)
+cacheSolve(x)
