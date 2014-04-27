@@ -8,14 +8,20 @@ makeCacheMatrix <- function(x = matrix()) {
     
     ## Put vector into the matrix
     x = as.matrix[Vect1, Vect2]
+    set  <-  function(y){
+        x <<- y
+    }
+    list(set = set)
+    
 }
-
+    
 
 ## This function will cache the above matrix
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
-    solve(x) 
+    solve(x)
+    x
 }
 
 makeCacheMatrix(x)
